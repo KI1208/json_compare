@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:skyblue;font-family:Arial, sans-serif;font-size:12px;}
+.tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:skyblue;color:black;vertical-align:top;}
+.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:skyblue;color:black;background-color:skyblue;vertical-align:top;}
+.tg .tg-danger{background-color:orangered  !important;}
+.tg .tg-warning{background-color:gold !important;}
+ul {
+  list-style: none;
+}
+</style>
+</head>
+<body>
+<table class="tg">
+<thead><tr><th>param</th><th>Before</th><th>After</th></tr></thead>
+<tbody>
+<tr><th class="tg-warning">hostName</th class="tg-warning"><td class="tg-danger">test01</td class="tg-danger"><td class="tg-danger">test02</td class="tg-danger"></tr><tr><th>domainName</th><td>test.local</td><td>test.local</td></tr><tr><th>defaultGateway</th><td></td><td></td></tr><tr><th class="tg-warning">role</th class="tg-warning"><td><ul><li>db</li><li>web</li></ul></td><td><ul><li>web</li><li>db</li></ul></td></tr><tr><th class="tg-warning">dnsServer</th class="tg-warning"><td><ul><li>10.10.10.250</li><li class="tg-danger">10.10.10.251</li class="tg-danger"></ul></td><td><ul><li>10.10.10.250</li><li class="tg-danger">10.10.10.252</li class="tg-danger"></ul></td></tr><tr><th class="tg-warning">interfaces</th class="tg-warning"><td><table class="tg"><thead><tr><th>name</th><th>ipAddress</th></tr></thead><tbody><tr><td>eth1</td><td>10.10.10.1</td></tr><tr class="tg-danger"><td>eth2</td><td>10.10.20.1</td></tr class="tg-danger"></tbody></table></td><td><table class="tg"><thead><tr><th>name</th><th>ipAddress</th></tr></thead><tbody><tr><td>eth1</td><td>10.10.10.1</td></tr><tr class="tg-danger"><td>eth2</td><td>10.10.20.2</td></tr class="tg-danger"><tr class="tg-danger"><td>eth3</td><td>10.10.30.1</td></tr class="tg-danger"></tbody></table></td></tr><tr><th class="tg-warning">licenses</th class="tg-warning"><td><table class="tg"><thead><tr><th>name</th><th>application</th></tr></thead><tbody><tr><td>eval</td><td><ul><li class="tg-danger">db</li class="tg-danger"><li>web</li></ul></td></tr></tbody></table></td><td><table class="tg"><thead><tr><th>name</th><th>application</th></tr></thead><tbody><tr><td>eval</td><td><ul><li class="tg-danger">test</li class="tg-danger"><li>web</li></ul></td></tr></tbody></table></td></tr>
+</tbody>
+</table>
+</body>
+</html>

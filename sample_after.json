@@ -1,0 +1,36 @@
+{
+    "hostName": "test02",
+    "domainName": "test.local",
+    "defaultGateway": "",
+    "role": [
+        "web",
+        "db"
+    ],
+    "dnsServer": [
+        "10.10.10.250",
+        "10.10.10.252"
+    ],
+    "interfaces": [
+        {
+            "name": "eth1",
+            "ipAddress": "10.10.10.1"
+        },
+        {
+            "name": "eth2",
+            "ipAddress": "10.10.20.2"
+        },
+		{
+            "name": "eth3",
+            "ipAddress": "10.10.30.1"
+        }
+    ],
+	"licenses": [
+		{
+			"name": "eval",
+			"application": [
+				"test",
+				"web"
+			]
+		}
+	]
+}
